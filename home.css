@@ -1,0 +1,105 @@
+.backgroundImage
+{
+    background-image: url('./Resources/background.jpg'); no-repeat center center;
+    min-height: 100%;
+    padding: 2% 0 2% 0;
+    position: relative;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.navbar-item{
+  color: black !important;
+  font-family: monospace;
+  font-size: 1.2em;
+}
+.name-heading{
+  color: black;
+  font-size: 3em;
+  font-family: cursive;
+  font-weight: bold;
+}
+#heading{
+  width: 100%;
+  color: #333333;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  float: none;
+}
+#avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
+
+    /* make a square container */
+    width: 200px;
+    height: 200px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
+#dp{
+  background-image: url('./Resources/me2.jpg'); no-repeat center center;
+  height: 200px;
+  width: 200px;
+  padding: 71px 0 65px 0;
+  position: relative;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    color: grey;
+    text-decoration:none;
+}
+
+/* Set a specific color for each brand */
+
+/* GooGle */
+.fa-google-plus-official {
+    color: red;
+    font-size: 3em !important;
+}
+
+/*FACEBOOK*/
+.fa-facebook {
+    color: #3B5998;
+    font-size: 3em !important;
+}
+
+/*Github*/
+.fa-github {
+    color: #000;
+    font-size: 3em !important;
+}
+
+/*linkedin*/
+.fa-linkedin {
+    font-size: 3em !important;
+}
