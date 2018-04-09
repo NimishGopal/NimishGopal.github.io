@@ -12,6 +12,7 @@
     <!--   The viewport is the user's visible area of a web page.-->
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <link href="home.css" type = "text/css" rel="stylesheet">
+    <link href="aboutme.css" type = "text/css" rel="stylesheet">
     <!-- Bootstrap Links -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -42,7 +43,7 @@
       rotateWord();
     </script>
   </head>
-  <body>
+  <body id="page-top" class="index">
     <div class="container-fluid backgroundImage">
       <nav class="navbar navbar-toggleable-md navbar-light fixed-top ">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,10 +53,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav navbar-nav navbar-toggler-right">
             <li class="nav-item active">
-              <a class="nav-link navbar-item" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link navbar-item page-scroll" href="#page-top">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navbar-item" href="#">Link</a>
+              <a class="nav-link navbar-item page-scroll" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link navbar-item" href="#">Disabled</a>
@@ -66,8 +67,9 @@
       <div class="d-flex flex-column !important" id="heading">
         <div id="dp" class="p-4"></div>
         <div class="p-4">
-          <h1 class="text-center name-heading"><span>Hi! I am Nimish Gopal.</span><br><br><span id="rotate_word"></span></h1>
+          <h1 class="text-center name-heading"><span>Hi! I am <span style="color: #9a6319;">Nimish Gopal</span>.</span><br><br><span id="rotate_word"></span></h1>
         </div>
+        <a href="#about" class="know-more btn btn-xl">Know Me More</a>
       </div>
       <div class="row" style="justify-content: center">
         <div class="col-md-1 text-center">
@@ -84,5 +86,124 @@
         </div>
       </div>
     </div>
+
+    <!-- Code For ABOUT ME -->
+    <section id="about">
+      <div class="container">
+        <div class="row about-me-heading-container">
+          <h1 class="about-me-heading">ABOUT ME</h1>
+          <p id="about-me-paragraph" class="text-justify text-muted ">
+            I am a student currently pursuing Bachelor of Technology in Information Science and engineering from PESIT-Bangalore South Campus, Bengaluru.
+            I am eager to contribute to open source community. I like to make Hybrid Mobile applications using javascript.
+            Sometimes I also do programming on online judge systems like hackerrank, hackerearth, codechef in C++.
+            I have also done projects in the feild of IOT(Internet of Things) using Arduino.
+            I have tried little bit of web development, application developement but I lack interest in the back end part.
+            I have presented papers in technical conferences.
+            I have some experience working with an GSM module, IR sensor, accelerometer and many of them.
+            I like to participate in many hackathons. I also like to travel and explore new places.
+          </p>
+        </div>
+        <div class="row about-me-heading-container">
+          <h2 class="about-me-heading">EDUCATION</h2>
+          <ul class="text-justify text-muted about-me-paragraph">
+            <li id="about-me-paragraph" class="list-spacing">B.tech. in Information Science and Engineering from PESIT-BSC
+            <a class="link-style" href="http://vtu.ac.in/" target="_blank">(VTU)</a>.</li>
+            <li id="about-me-paragraph" class="list-spacing">XII from Vrindavan Public School, Ajmer.</li>
+            <li id="about-me-paragraph" class="list-spacing">X from Vrindavan Public School, Ajmer</li>
+          </ul>
+        </div>
+        <div class="row about-me-heading-container">
+          <h2 class="about-me-heading">TECHNICAL SKILLS</h2>
+          <p id="about-me-paragraph">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+             React Native,javascript
+          </p>
+          <p id="about-me-paragraph">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+             GIT,Arduino
+          </p>
+          <p id="about-me-paragraph">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+             C,C++
+          </p>
+          <p id="about-me-paragraph">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+             Node.js,MongoDB,HTML,CSS,Bootstrap
+          </p>
+        </div>
+        <div class="row about-me-heading-container">
+          <h2 class="about-me-heading">TOOLS</h2>
+          <table class="table table-hover">
+            <thead>
+              <tr class="row-heading">
+                <th>Tool</th>
+                <th>Used for</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Atom</th>
+                <th>Code Editor</th>
+              </tr>
+              <tr>
+                <th>Terminal</th>
+                <th>A command-line interface</th>
+              </tr>
+              <tr>
+                <th>Arduino IDE</th>
+                <th>Used for IOT developement</th>
+              </tr>
+              <tr>
+                <th>Postman</th>
+                <th>API development environment</th>
+              </tr>
+              <tr>
+                <th>Android Studio</th>
+                <th>App developement</th>
+              </tr>
+              <tr>
+                <th>XCode</th>
+                <th>App developement</th>
+              </tr>
+              <tr>
+                <th>Robo3T</th>
+                <th>For managing databases</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="row about-me-heading-container">
+          <h2 class="about-me-heading" style="left: 0px;">INTERNSHIPS</h2>
+          <div class="col-lg-12 work-container">
+            <a class="company-name" target="_blank" href="https://smartify.in/">
+              Smartify (Dec17-Jan18)
+            </a>
+            <p class="text-justify text-muted " style="padding-top: 30px;" >Developed a 3D modelling program from scratch which read coordinates from a file and model oil/gas wells. The project is developed in C++ using COIN3D, SOWIN3D libraries. Many supportive functions were developed which were not available in those libraries to ease out modelling of basic shapes and labelling them. Object Oriented approach was used to implement the overall project, so that in later projects this code can be directly accessed using objects and their functions.</p>
+          </div>
+          <div class="col-lg-12 work-container">
+            <a class="company-name" target="_blank" href="http://determinantstudios.com/">
+              Determinant Studios (Jun17-Dec17)
+            </a>
+            <p class="text-justify text-muted " style="padding-top: 30px;" >Developed a 3D modelling program from scratch which read coordinates from a file and model oil/gas wells. The project is developed in C++ using COIN3D, SOWIN3D libraries. Many supportive functions were developed which were not available in those libraries to ease out modelling of basic shapes and labelling them. Object Oriented approach was used to implement the overall project, so that in later projects this code can be directly accessed using objects and their functions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
