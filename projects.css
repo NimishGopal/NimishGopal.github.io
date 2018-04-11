@@ -1,0 +1,27 @@
+.background{
+  background-color: #eee;
+}
+.heading{
+  color: #5f2a48;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+._center{
+  justify-content: center !important;
+  align-items: center !important;
+}
+.main-container-padding{
+  padding: 100px;
+}
+.icon-margin{
+  margin-bottom: 20px;
+  font-size: 4em;
+  color:#9a6319;
+}
+.container-padding{
+  padding: 0px 100px 0px 100px !important;
+}
+.container-margin{
+  margin-top: 35px !important;
+  margin-bottom: 35px !important;
+}

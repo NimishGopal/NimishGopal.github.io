@@ -1,0 +1,50 @@
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+} */
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    color: #9a6319;
+    text-decoration:none;
+}
+
+/* Set a specific color for each brand */
+
+/* GooGle */
+.fa-google-plus {
+    color: #000;
+    font-size: 2em !important;
+}
+
+/*FACEBOOK*/
+.fa-facebook-f {
+    color: #000;
+    font-size: 2em !important;
+}
+
+/*Github*/
+.fa-github {
+    color: #000;
+    font-size: 2em !important;
+}
+
+/*linkedin*/
+.fa-linkedin {
+  color: #000;
+  font-size: 2em !important;
+}
+.copyright{
+  text-transform: uppercase;
+  text-transform: none;
+  font-family: sans-serif;
+  line-height: 40px;
+}
