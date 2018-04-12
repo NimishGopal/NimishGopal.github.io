@@ -1,5 +1,7 @@
 .backgroundImage
 {
+    display: flex;
+    flex-direction: column;
     background-image: url('./Resources/background.jpg'); no-repeat center center;
     min-height: 100%;
     padding: 2% 0 2% 0;
@@ -23,28 +25,15 @@
   font-family: Trebuchet MS;
   font-weight: bold;
 }
-#heading{
-  width: 100%;
-  color: #333333;
-  height: 700px;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 10px 0;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  float: none;
+@media (max-width: 768px) {
+  .name-heading{
+    color: black;
+    font-size: 1.5em;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+  }
 }
-#avatar {
 
-    /* make a square container */
-    width: 200px;
-    height: 200px;
-
-
-    /* round the edges to a circle with border radius 1/2 container size */
-    border-radius: 50%;
-}
 #dp{
   background-image: url('./Resources/me2.jpg'); no-repeat center center;
   height: 200px;
@@ -97,5 +86,8 @@
     color: #000 !important;
 
 }
-a {
+._center{
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
 }
